@@ -129,7 +129,7 @@ main .blog1{
     background: url(../assets/Abract01.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-bottom: -11rem;
+    margin-bottom: -11rem; 
     height: 80vh;
     width: 100%;
 }
