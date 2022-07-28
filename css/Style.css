@@ -129,7 +129,7 @@ main .blog1{
     background: url(../assets/Abract01.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-bottom: -10rem;
+    margin-bottom: -11rem;
     height: 80vh;
     width: 100%;
 }
@@ -183,13 +183,11 @@ main .essay1-1, .essay2-1, .code1, .code2, .code3, .code4{
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
     margin: 1rem 2rem;
     width: 70%;
-    /* text-align: justify; */
 }
 
 main .essay1-1, .essay2-1{
     font-size: 1.5rem;
 }
-
 
 @media only screen and (max-width:750px){
     .nav .nav-menu, .nav .nav-items{
