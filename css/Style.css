@@ -49,7 +49,7 @@ h3{
 h4{
     font-family: var(--Abel);
     padding: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 p{
@@ -129,6 +129,7 @@ main .blog1{
     background: url(../assets/Abract01.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: -10rem;
     height: 80vh;
     width: 100%;
 }
@@ -137,7 +138,6 @@ main .blog2{
     background: url(../assets/Abract03.png);
     background-repeat: no-repeat;
     background-position: left;
-    padding-top: 7rem;
     width: 100%;
 }
 
@@ -153,7 +153,7 @@ main .blog4{
     background: url(../assets/Abract03.png);
     background-repeat: no-repeat;
     background-position: left;
-    padding-top: 15rem;
+    padding-top: 10rem;
     width: 100%;
 }
 
@@ -167,7 +167,7 @@ main .level1, .level2, .level3, .level4{
     text-align: center;
 }
 
-main .level1-1, .level1-2, .level2-1, .level2-2, .level2-3, .level3-1, .level3-2, .level4-1{
+main .level1-1, .level2-1, .level2-2, .level2-3, .level3-1, .level3-2, .level4-1{
     justify-content: center;
     text-align: justify;
     display: flex;
@@ -179,11 +179,15 @@ main .essay1, .essay2, .essay3, .essay4{
     width: 45%;
 }
 
-main .essay2-1, .code1, .code2, .code3, .code4{
+main .essay1-1, .essay2-1, .code1, .code2, .code3, .code4{
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
     margin: 1rem 2rem;
     width: 70%;
     /* text-align: justify; */
+}
+
+main .essay1-1, .essay2-1{
+    font-size: 1.5rem;
 }
 
 
