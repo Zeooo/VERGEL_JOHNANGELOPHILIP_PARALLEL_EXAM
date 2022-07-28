@@ -1,9 +1,9 @@
 @import url(../css/fonts.css);
 
 html, body{
-    margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+    margin: 0%;
 }
 
 :root{
@@ -13,11 +13,11 @@ html, body{
 
     --sky:linear-gradient(120deg, #a1c4fd 0%, #c2e9fd 100%);
 
-    --Abel:'Abel',cursive;
-    --Anton:'Anton',cursive;
     --Josefin:'Josefin',cursive;
     --Lexend:'Lexend',cursive;
     --Livvic:'Livvic',cursive;
+    --Anton:'Anton',cursive;
+    --Abel:'Abel',cursive;
 }
 
 
@@ -37,8 +37,8 @@ h1{
 
 h2{
     font-family: var(--Lexend);
-    margin-left: 0.5rem;
     margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 h3{
@@ -52,23 +52,34 @@ h4{
     font-size: 1rem;
 }
 
+p{
+    font-family: var(--Josefin);
+    margin-inline-start: 0px;
+    margin-block-start: 1em;
+    margin-inline-end: 0px;
+    margin-block-end: 1em;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+}
+
 button.btn{
-    border: none;
+    font-family: var(--Livvic);
     border-radius: 2rem;
     padding: 1rem 3rem;
     font-size: 1rem;
-    font-family: var(--Livvic);
     cursor: pointer;
-}
+    border: none;
 
-/* navbar */
+}
 
 .nav{
     background: white;
     padding-left: 2rem;
-    height: 0rem;
     min-height: 8.8vh;
     overflow: hidden;
+    height: 0rem;
 }
 
 .nav .nav-menu{
@@ -76,26 +87,26 @@ button.btn{
 }
 
 .nav .nav-brand a{
-    font-size: 3rem;
-    padding: 1.2rem 0;
-    display: block;
     font-family: var(--Lexendv);
     text-align: center;
+    padding: 1.2rem 0;
+    font-size: 3rem;
+    display: block;
 }
 
 main .site-title{
     background: url(../assets/Background-image.png);
+    justify-content: center;
     background-size: cover;
     height: 110vh;
     display: flex;
-    justify-content: center;
 }
 
 main .site-title .site-background{
+    text-shadow: 2px 2px 8px #0f0f0f;
+    color: var(--white);
     padding-top: 15rem;
     text-align: center;
-    color: var(--white);
-    text-shadow: 2px 2px 8px #0f0f0f;
 }
 
 main .site-title h1,h3{
@@ -103,13 +114,13 @@ main .site-title h1,h3{
 }
 
 main .site-title .btn{
-    margin: 0.5rem;
     background: var(--sky);
+    margin: 0.5rem;
 }
 
 main .site-title .btn:hover{
-    background: transparent;
     border: 1px solid var(--white);
+    background: transparent;
     color: var(--white);
 }
 
@@ -134,7 +145,6 @@ main .blog3{
     background-repeat: no-repeat;
     background-position: right;
     padding-top: 7rem;
-    height: 100vh;
     width: 100%;
 }
 
@@ -146,27 +156,32 @@ main .blog4{
     width: 100%;
 }
 
+main .screenshot{
+    width: 100%;
+    flex-direction: column;
+}
+
 main .level1, .level2, .level3, .level4{
-    text-align: center;
     text-shadow: 2px 2px 8px var(--white);
+    text-align: center;
 }
 
 main .level1-1, .level1-2, .level2-1, .level2-2, .level2-3, .level3-1, .level3-2, .level4-1{
-    display: flex;
-    text-align: justify;
     justify-content: center;
+    text-align: justify;
+    display: flex;
 }
 
 main .essay1, .essay2, .essay3, .essay4{
-    width: 45%;
-    margin: 1rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    margin: 1rem 2rem;
+    width: 45%;
 }
 
 main .essay2-1, .code1, .code2, .code3, .code4{
-    width: 70%;
-    margin: 1rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    margin: 1rem 2rem;
+    width: 70%;
     /* text-align: justify; */
 }
 
