@@ -1,0 +1,178 @@
+@import url(../css/fonts.css);
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    --text-gray:#3f4954;
+    --bg-color:#0f0f0f;
+    --white:#ffffff;
+
+    --sky:linear-gradient(120deg, #a1c4fd 0%, #c2e9fd 100%);
+
+    --Abel:'Abel',cursive;
+    --Anton:'Anton',cursive;
+    --Josefin:'Josefin',cursive;
+    --Lexend:'Lexend',cursive;
+    --Livvic:'Livvic',cursive;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--text-gray)
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: var(--Lexend);
+    font-size: 5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 2.3rem;
+}
+
+h4{
+    font-family: var(--Abel);
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
+
+/* navbar */
+
+.nav{
+    background: white;
+    padding-left: 2rem;
+    height: 0rem;
+    min-height: 8.8vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-brand a{
+    font-size: 3rem;
+    padding: 1.2rem 0;
+    display: block;
+    font-family: var(--Lexendv);
+    text-align: center;
+}
+
+main .site-title{
+    background: url(../assets/Background-image.png);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 15rem;
+    text-align: center;
+    color: var(--white);
+    text-shadow: 2px 2px 8px #0f0f0f;
+}
+
+main .site-title h1,h3{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin: 0.5rem;
+    background: var(--sky);
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+main .blog1{
+    background: url(../assets/Abract01.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 80vh;
+    width: 100%;
+}
+
+main .blog2{
+    background: url(../assets/Abract03.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 7rem;
+    width: 100%;
+}
+
+main .blog3{
+    background: url(../assets/Abract01.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 7rem;
+    height: 100vh;
+    width: 100%;
+}
+
+main .blog4{
+    background: url(../assets/Abract03.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 7rem;
+    width: 100%;
+}
+
+main .level1, .level2, .level3, .level4{
+    text-align: center;
+    text-shadow: 2px 2px 8px var(--white);
+}
+
+main .level1-1, .level1-2, .level2-1, .level2-2, .level2-3, .level3-1, .level3-2, .level4-1{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+}
+
+main .essay1, .essay2, .essay3, .essay4{
+    width: 45%;
+    margin: 1rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .essay2-1, .code1, .code2, .code3, .code4{
+    width: 70%;
+    margin: 1rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    /* text-align: justify; */
+}
+
+
+@media only screen and (max-width:750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+}

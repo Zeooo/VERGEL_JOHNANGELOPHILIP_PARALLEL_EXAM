@@ -5,8 +5,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/all.css">
 </head>
 <body>
-    hello roi gopez jr push
+
+    <! navigation bar>
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">Parallel and Distributed Computing Final Exam</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="site-title">
+            <div class="site-background">
+                <h3>Answered by:</h3>
+                <h1>John Angelo Philip M. Vergel</h1>
+                <button class="btn">BSCS - 3A</button>
+            </div>
+        </section>
+        <section>
+            <div class="blog1">
+                <div class="level1">
+                    <h1>Level 1: (4 points each)</h1>
+                    <div class="level1-1">
+                        <div class="essay1">
+                            <h2>1. Differentiate between SIMD and MIMD ? Explain</h2>
+                            <h4>SIMD uses only one instruction to process a large amount of data or 
+                                multiple data sets at the same time. For example, the instructions state 
+                                to add 1 to the data, which is 4, 5, and 6. While the MIMD applies multiple 
+                                instructions to multiple data sets at the same time. So, instead of adding 1 
+                                to 4, 5, and 6, we will add 1 to 4, 2 to 5, 3 to 6, and so on. In terms of performance, 
+                                SIMD is less efficient and requires less memory.</h4>
+                        </div>
+                        <div class="essay2">
+                            <h2>2. What are the performance metrics of parallel systems? Explain each</h2>
+                            <h4>there are four performance metrics of parallel systems. The execution time, total 
+                                parallel overhead, speedup, and efficiency are all factors to consider. The Execution 
+                                time refers to the time elapsed between the start of executing the instructions in the 
+                                computer program or the first processor and the completion of the execution by the last 
+                                processor. While total parallel overhead is the amount of time spent coordinating parallel 
+                                tasks rather than doing useful work. The speedup then refers to how much faster your code 
+                                runs in parallel than the other type of execution, and it will always use the best sequential 
+                                program as the baseline. Lastly, the efficiency, it is how well the speedup in parallel program 
+                                or parallel computer and it measures the fraction of time for which a processor is usefully 
+                                utilized.</h4>
+                        </div>
+                    </div>
+                    <div class="level1-2">
+                        <div class="essay3">
+                            <h2>3. how does the performance of metrics of parallel systems affect each other? Explain</h2>
+                            <h4>The first is efficiency, it measures the proportion of time that a processor is productively 
+                                used and it indicates how well the parallel computer speedup is. The speedup measures the relative 
+                                performance of two systems processing the same problem, whereas the execution time represents the 
+                                amount of time these systems spend performing the same problem or task. The total parallel overhead 
+                                then contributes to the speedup by handling the separate parts of an overall task to lower the amount 
+                                of time it takes to run a program.</h4>
+                        </div>
+                        <div class="essay4">
+                            <h2>4. Explain what pipelining is.</h2>
+                            <h4>pipelining or also known as pipeline processing is a technique that handles multiple stages of computer 
+                                instructions and the tasks from the processor via logical pipeline. it allows storing, managing, and executes 
+                                a task and instruction in an orderly process. pipelining also improves the processor performance, total 
+                                throughput of instructions and the amount of valuable work the processor can execute in a given period of 
+                                time
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="blog2">
+                <div class="level2">
+                    <h1>Level 2: (5 points each)</h1>
+                    <div class="level2-1">
+                        <div class="essay2-1">
+                            <h2>1. How does parallel programming/computing works? What do you think will be the advantage of utilizing parallel approach?</h2>
+                            <h4>the parallel computing is a technique of dividing a problem into smaller task that can be executed at the same time by 
+                                utilizing numerous computer resources. For example, when we want to plot a graph or build a table of data, instead of 
+                                doing it one at a time, we may display more points of the graph or fill more fields of the table at once when we do it 
+                                in parallel. Parallel computing also provides speedier performance and allows us to run code more effectively, saving 
+                                time and money.</h4>
+                        </div>
+                    </div>
+                    <div class="level2-2">
+                        <div class="code2">
+                            <h2>2. In a right triangle, the square of the length of one side is equal to the sum of the squares of the lengths of the 
+                                other two sides. Write a program that prompts the user to enter the length of the three sides of a triangle and then 
+                                outputs a message indicating whether the triangle is a right triangle.</h2>
+                            <iframe src="https://trinket.io/embed/python/a322fc6217" width="100%" height="356" 
+                            frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="code3">
+                            <h2>3. Write a program that prompts the user to input a number between 0 and 35. If the number is less than or equal to 9, 
+                                the program should output the number; otherwise, it should output A for 10, B for 11, C for 12… and Z for 35.</h2>
+                                <iframe src="https://trinket.io/embed/python/f3f86395f5" width="100%" height="356" 
+                                frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="level2-3">
+                        <div class="code4">
+                            <h2>4. Write a program that will display all numbers divisible by 3, 4 and 5 from 1-50.</h2>
+                            <iframe src="https://trinket.io/embed/python3/a00f5df3a5" width="100%" height="356" 
+                            frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="blog3">
+                <div class="level3">
+                    <h1>Level 3: (6 points each)</h1>
+                    <div class="level3-1">
+                        <div class="essay1">
+                            <h2>1. Differentiate between Multiprocessing and Multithreading then Explain.</h2>
+                            <h4>The difference between multiprocessing and multithreading is that multiprocessing 
+                                is a system with multiple processor and the creation of a process in multiprocessing 
+                                is both slow and resource-specific but multiprocessing will help you to increase the 
+                                computing power while the multithreading is a program that executes a technique in which 
+                                it allows a single process to have multiple code segments and the creation of its thread 
+                                is cost effective in time and resource, multithreading will also help you to create computing 
+                                threads of a single process to increase computing power. </h4>
+                        </div>
+                        <div class="essay2">
+                            <h2>2. Explain the difference between Serial Computing and Parallel Computing.</h2>
+                            <h4>the serial computing is a kind of processing that uses a single processor to 
+                                accomplish one task at a time, whereas parallel computing can use multiple 
+                                processors to do multiple tasks at the same time. an example of this is when 
+                                we are teaching someone while drawing and there's two types to do it. the first 
+                                one is we can sketch first before explaining what we've drawn. then second is we 
+                                can explain to someone while we are drawing. Serial computing is also slower than 
+                                parallel computing and there are barely a little remaining who still use it.</h4>
+                        </div>
+                    </div>
+                    <div class="level3-2">
+                        <div class="code3">
+                            <h2>3.	Create a function in Python that accepts two parameters. The first will be a list of numbers. 
+                                The second parameter will be a string that can be one of the following values: asc, desc, and none. 
+                                If the second parameter is "asc," then the function should return a list with the numbers in ascending 
+                                order. If it's "desc," then the list should be in descending order, and if it's "none," it should return 
+                                the original list unaltered.</h2>
+                            <iframe src="https://trinket.io/embed/python3/b4ac58cafb" width="100%" height="356" 
+                            frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="blog4">
+                <div class="level4">
+                    <h1>Level 4: (10 points each)</h1>
+                    <div class="level4-1">
+                        <div class="code1">
+                            <h2>1.	Write a program that will generate 100 3-digit random numbers and store it in a list. 
+                                The program should display the following: </h2>
+                            <h2>a. All elements in the list</h2>
+                            <h2>b. All numbers grouped by odd and even numbers </h2>
+                            <h2>c. All numbers divisible by 9.</h2>
+                            <h2>d. All prime numbers</h2>
+                            <h2>e. All numbers that contain the digit 9 (e.g 29, 91, 393, 961)</h2>
+                            <iframe src="https://trinket.io/embed/python/78443df436" width="100%" height="356" 
+                            frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="code2">
+                            <h2>2.	Given a linked list of size K, your task is to complete the function sum_of_lastN_nodes(), 
+                                which should return the sum of last N nodes of the linked list. The function takes two arguments 
+                                as input, the reference pointer of the head of the linked list and the integer N. Example:</h2>
+                            <h2>5->10->6->4->1->12 </h2>
+                            <h2>N = 3</h2>
+                            <h2>sum_of_lastN_nodes(6, N)</h2>
+                            <h2>Output: Sum of last three nodes in the linked list is 4 + 1 + 12 = 15.</h2>
+                            <iframe src="https://trinket.io/embed/python3/95371c94f5" width="100%" height="356" 
+                            frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
